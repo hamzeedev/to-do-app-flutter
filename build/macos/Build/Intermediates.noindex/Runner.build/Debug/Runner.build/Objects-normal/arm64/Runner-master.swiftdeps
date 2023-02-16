@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "8505c457b40b2bf2cf1d9314f9e2dc3a709e8d246e9b1afb6e69906758c1c14c"
+build_start_time: [1664776465, 973606109]
+build_end_time: [1664776472, 644675016]
+inputs:
+  "/Users/hamzarafiqramay/Desktop/taskapp/macos/Flutter/GeneratedPluginRegistrant.swift": [1664776449, 969102859]
+  "/Users/hamzarafiqramay/Desktop/taskapp/macos/Runner/AppDelegate.swift": [1652294199, 0]
+  "/Users/hamzarafiqramay/Desktop/taskapp/macos/Runner/MainFlutterWindow.swift": [1652294199, 0]
