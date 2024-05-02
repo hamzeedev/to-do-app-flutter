@@ -34,7 +34,11 @@ class ToDoTile extends StatelessWidget {
           ]
           ),
         child: Container(
-          padding: EdgeInsets.all(24),
+          padding: const EdgeInsets.all(24),
+          decoration: BoxDecoration(
+            color: Colors.blueGrey,
+            borderRadius: BorderRadius.circular(12),
+          ),
           child: Row(
             children: [
               Checkbox(
@@ -46,10 +50,6 @@ class ToDoTile extends StatelessWidget {
                 style: TextStyle(decoration: taskCompleted? TextDecoration.lineThrough :TextDecoration.none,),
                 ),
             ],
-          ),
-          decoration: BoxDecoration(
-            color: Colors.blueGrey,
-            borderRadius: BorderRadius.circular(12),
           ),
         ),
       ),

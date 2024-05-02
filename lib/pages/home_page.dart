@@ -5,7 +5,7 @@ import 'package:taskapp/util/dialog_box.dart';
 import 'package:taskapp/util/todo_tile.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -82,13 +82,13 @@ final _controller = TextEditingController();
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text("DAILY TASK REMINDER"),
+        title: const Text("DAILY TASK REMINDER"),
         backgroundColor: Colors.indigo,
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.green,
         onPressed: createNewTask,
-        child: Icon( Icons.add),
+        child: const Icon( Icons.add),
          ),
 
       body: ListView.builder(
